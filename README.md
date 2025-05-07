@@ -16,7 +16,7 @@ My stats are not wild at all, but I still think it is worth including to know wh
 ## 🛠️ What I'm Building
 
 ### ⚙️ [ANNIK-A](https://github.com/KoiNoYume7/ANNIK-A) *(WIP)*  
-<img src="./annika_logo_small.png" alt="ANNIK-A Logo" width="100" style="border: 2px solid #444; border-radius: 10px; padding: 4px;">
+<img src="logos/^ANNIK-A logo.png" alt="ANNIK-A Logo" width="100" style="border: 2px solid #444; border-radius: 10px; padding: 4px;">
 
 A powerful Star Citizen tool designed to optimize cargo trading, ship usage tracking, and mining output.  
 ...
@@ -33,7 +33,7 @@ Coming soon: mining output optimizer that avoids storage mismatch problems most 
 ---
 
 ### 🎵 [AnniMusic](https://github.com/KoiNoYume7/AnniMusic) *(WIP)*
-<img src="./annimusic_logo_small.png" alt="ANNIK-A Logo" width="100" style="border: 2px solid #444; border-radius: 10px; padding: 4px;">
+<img src="logos/^AnniMusic.png" alt="ANNIK-A Logo" width="100" style="border: 2px solid #444; border-radius: 10px; padding: 4px;">
 
 A local-first music player with **Spotify sync**, download state tracking, and a floating custom UI.  
 Supports playback control, real-time sync toggle, dynamic download status, and sortable track tables.
