@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "KoiNoYume7",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": false,
+		},
+		"workbench.startupEditor": "readme",
+		"workbench.editor.restoreViewState": true
+	}
+}
