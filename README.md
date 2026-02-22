@@ -3,7 +3,7 @@
  
    # Akira Kiyosu · KoiNoYume7
  
-   Switzerland · Swiss/Spanish · Age: <!-- AGE_START -->17<!-- AGE_END --> · <!-- DAYS_START -->1999<!-- DAYS_END --> days online
+   Switzerland · Swiss/Spanish · Age: 17
  
    *Automation-first hobby coder, getting into cybersecurity.*
  </div>
