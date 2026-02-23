@@ -1,41 +1,69 @@
 <div align="center">
    <img src=".assets/logos/icon.png" width="96" alt="KoiNoYume7 icon" style="border-radius:18px" />
- 
-   # Akira Kiyosu · KoiNoYume7
- 
-   Switzerland · Swiss/Spanish · Age: 17
- 
-   *Automation-first hobby coder, getting into cybersecurity.*
- </div>
- 
- <!-- dob: 2008-09-15 -->
- 
- ## About
- I build practical automation and tooling for Windows & Linux environments. I like systems that are reproducible, easy to bootstrap, and security-conscious.
- 
- ## Focus
- - **Automation**: PowerShell, AutoHotkey (v1/v2), Bash, Python, JS.
- - **Security (learning)**: hardening, networking, access models, minimizing shared secrets, reliable logs
- - **Homelab**: Raspberry Pi 4, SMB, Tailscale, Cloudflared
- 
- ## Featured project
- <a href="https://github.com/KoiNoYume7/AnniProxy">
-   <img src=".assets/logos/AnniProxy.png" width="56" alt="AnniProxy logo" />
- </a>
- 
- **[AnniProxy](https://github.com/KoiNoYume7/AnniProxy)** is a portable proxy-browser designed for barebones Windows setups.
- - Boots dependencies and starts a Cloudflared Access SSH proxy flow
- - Opens a local SOCKS5 tunnel and launches a portable Brave profile using it
- - Built with reliability in mind (bootstrap transcript + session logs)
- 
- ## How I build (AI-assisted)
- I do a lot of *vibe coding* to iterate fast: I use AI to draft code, then I validate it by debugging, testing, and refining until it’s solid.
- 
- ## Contact
- - **Discord**: `koinoyume7`
- - **Server**: https://discord.gg/uG2ncWseYz
- - **Email**: or if you feel old school, shoot me an email at `koinoyume7@gmail.com`.
- > my server is a bit quiet, but feel free to join if you want to chat or hang out with others :D
- 
- ---
- *Cars · Code · Games · Music · Anime · Energy drinks*
+
+   # KoiNoYume7
+
+   Switzerland · Swiss/Spanish
+
+   Automation-focused developer with a growing interest in cybersecurity and systems engineering.
+</div>
+
+<!-- dob: 2008-09-15 -->
+
+---
+
+## About
+
+You can call me Akira Kiyosu, the name I represent online.
+
+I build practical automation and tooling for Windows and Linux environments.  
+I am particularly interested in systems that are reproducible, easy to bootstrap, and security-conscious.
+
+Most of my work revolves around improving workflows, reducing manual effort, and designing reliable setups that are easy to maintain.
+
+---
+
+## Focus
+
+- **Automation**: PowerShell, AutoHotkey (v1/v2), Bash, Python, JavaScript.
+- **Tool building**: C, JavaScript, Python, HTML + CSS.
+- **Cyber Security (learning)**: system hardening, networking fundamentals, access models, minimizing shared secrets, structured logging  
+- **Homelab**: Raspberry Pi 4, SMB, Tailscale, Cloudflared
+
+---
+
+## Featured Project
+
+<a href="https://github.com/KoiNoYume7/AnniProxy">
+  <img src=".assets/logos/AnniProxy.png" width="56" alt="AnniProxy logo" />
+</a>
+
+### [AnniProxy](https://github.com/KoiNoYume7/AnniProxy)
+
+A portable proxy-browser environment designed for minimal Windows setups.
+
+- Bootstraps required dependencies automatically  
+- Establishes a Cloudflared Access SSH proxy flow  
+- Opens a local SOCKS5 tunnel and launches a portable Brave profile  
+- Designed with reliability in mind (bootstrap transcripts + structured session logs)
+
+---
+
+## Development Approach
+
+I use AI-assisted development to accelerate prototyping and exploration.  
+Generated code is always validated through debugging, structured testing, and iterative refinement.
+
+My focus is not just making something work, but making it reproducible and maintainable.
+You could call it vibe coding, but it is more than just that.
+
+---
+
+## Contact
+
+- Email: `koinoyume7@gmail.com`
+- Discord: `koinoyume7`
+
+---
+
+Systems · Automation · Infrastructure · Security
