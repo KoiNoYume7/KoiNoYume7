@@ -1,69 +1,91 @@
 <div align="center">
-   <img src=".assets/logos/icon.png" width="96" alt="KoiNoYume7 icon" style="border-radius:18px" />
+   <img src="assets/icon.png" width="96" alt="KoiNoYume7" style="border-radius:18px" />
 
-   # KoiNoYume7
+   # hey, I'm Akira
 
-   Switzerland · Swiss/Spanish
+   `Switzerland` · `17` · `cybersecurity trainee by day, vibe coder by night`
 
-   Automation-focused developer with a growing interest in cybersecurity and systems engineering.
+   <br/>
+
+   *best commits happen after midnight with a Monster in hand*
+
 </div>
 
-<!-- dob: 2008-09-15 -->
+---
+
+I go by **KoiNoYume7** online. I'm a cybersecurity trainee based in Switzerland who got tired of waiting for tools to exist and started building them instead.
+
+I architect, debug, and direct. AI writes the first draft. I make it actually work.  
+You could call it vibe coding — but there's real engineering underneath.
+
+My current obsession is self-hosting everything I can on a Raspberry Pi 4 tucked under my desk, serving a live website to the internet without a single open inbound port. Because why not.
 
 ---
 
-## About
+## what I'm building
 
-You can call me Akira Kiyosu, the name I represent online.
+### [AnniWebsite](https://github.com/KoiNoYume7/AnniWebsite) · *[yumehana.dev](https://yumehana.dev)*
 
-I build practical automation and tooling for Windows and Linux environments.  
-I am particularly interested in systems that are reproducible, easy to bootstrap, and security-conscious.
+My personal site — fully self-hosted, zero cloud, runs on the Pi.
 
-Most of my work revolves around improving workflows, reducing manual effort, and designing reliable setups that are easy to maintain.
+Built with Vite + vanilla JS (no frameworks, no shortcuts), an Express OAuth backend with GitHub/Discord/Google login, and a live system dashboard that reads real CPU temps, memory, storage, and network stats straight from `/proc`.
 
----
+Deployed from my Windows machine with a single PowerShell script. nginx proxies everything through a Cloudflare Tunnel so the Pi never exposes a port. I'm pretty proud of this one.
 
-## Focus
-
-- **Automation**: PowerShell, AutoHotkey (v1/v2), Bash, Python, JavaScript.
-- **Tool building**: C, JavaScript, Python, HTML + CSS.
-- **Cyber Security (learning)**: system hardening, networking fundamentals, access models, minimizing shared secrets, structured logging  
-- **Homelab**: Raspberry Pi 4, SMB, Tailscale, Cloudflared
+> *has easter eggs. won't tell you where.*
 
 ---
-
-## Featured Project
-
-<a href="https://github.com/KoiNoYume7/AnniProxy">
-  <img src=".assets/logos/AnniProxy.png" width="56" alt="AnniProxy logo" />
-</a>
 
 ### [AnniProxy](https://github.com/KoiNoYume7/AnniProxy)
 
-A portable proxy-browser environment designed for minimal Windows setups.
+A portable proxy-browser environment for minimal Windows setups.
 
-- Bootstraps required dependencies automatically  
-- Establishes a Cloudflared Access SSH proxy flow  
-- Opens a local SOCKS5 tunnel and launches a portable Brave profile  
-- Designed with reliability in mind (bootstrap transcripts + structured session logs)
+Bootstraps its own dependencies, punches a Cloudflared SSH tunnel, spins up a SOCKS5 proxy, and launches an isolated Brave profile. Every session is logged. Designed to be reliable first, clever second.
 
 ---
 
-## Development Approach
+## how I actually work
 
-I use AI-assisted development to accelerate prototyping and exploration.  
-Generated code is always validated through debugging, structured testing, and iterative refinement.
+I treat AI like a senior dev I can pair with at 2am — it drafts, I review, we argue about architecture, I win sometimes.
 
-My focus is not just making something work, but making it reproducible and maintainable.
-You could call it vibe coding, but it is more than just that.
+Every line that goes to production gets validated. I care about things being reproducible and maintainable, not just functional. A script that works once isn't a solution, it's a prototype.
 
----
-
-## Contact
-
-- Email: `koinoyume7@gmail.com`
-- Discord: `koinoyume7`
+Languages I reach for: `Python` `JavaScript` `PowerShell` `Bash` `HTML/CSS` `C`  
+Currently learning: `systems internals` `network security` `access control models`
 
 ---
 
-Systems · Automation · Infrastructure · Security
+## the homelab
+
+A hardened Raspberry Pi 4 running Pi OS Lite 64-bit, locked behind Tailscale and Fail2ban, serving the internet through Cloudflare without exposing a single port.
+
+```
+internet → Cloudflare Tunnel → nginx → static site + API
+                                           ↓
+                              Express OAuth + Python stats API
+                                           ↓
+                              /proc · vcgencmd · systemd
+```
+
+SSH is Tailscale-only. Samba is Tailscale-only. Nothing is public that doesn't need to be.
+
+---
+
+## outside the terminal
+
+Star Citizen addict · Cyberpunk 2077 · Euro Truck Simulator 2  
+Anime · cars · music with good bass · energy drinks as a personality trait
+
+---
+
+## find me
+
+- 🌐 [yumehana.dev](https://yumehana.dev)
+- 💬 Discord: `koinoyume7`
+- 📧 `koinoyume7@gmail.com`
+
+---
+
+<div align="center">
+   <sub>systems · automation · security · ships when it works</sub>
+</div>
